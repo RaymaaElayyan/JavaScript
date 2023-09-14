@@ -1,0 +1,77 @@
+3rd day
+2/9/2023 
+Sat
+Structuring --> not using item.name
+trunkate?
+high quality code, well structured with time and space.
+//AMD(zman) or common GS(divide the code into files)
+modules->export and import but 2013 was only commmon GS
+now modules:
+relative and absolutepath.
+2009-2013 no modules.
+as defult common js.--> need to be edited file by file but to use it i want to give it a sign im gonna use common js/import, export
+ so to alret it insteadof .js --> mjs
+
+named by name
+export by its method->
+export default 
+module.export or require is only for commmon js when its .mjs its export or import
+
+the exporting and importing like python , pythin has no export,,
+export->named(by its name ) and default(by the obj)
+module os , fs , 3rd patner modules(from internet)
+core module from ancient cant use export and import
+
+
+3rd part module(NPM):
+Lets downloadONE
+npm init -y  ---> we downloaded it
+we downloaded chalk--> it appears only via the terminal its made for it not for the normal output its only a txt
+BOOTsrcrap??
+__________
+Asynchrononus->single thread:
+blocking?first one then the next
+ccook a chicken for 25 dont over look at it its an individual thread just let it done its work and it will be teeling u in a tone ring , u go do the salad
+Sequentially is so bad..
+blocking and asyncrononus(non blocking)-->single thread does it self multi thread
+webi-I?
+CallBAckFunction:
+
+setTimeOut()
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+//const --> resolve error:
+
+promise.then((rr)=>{
+  console.log(rr)
+})
+
+.then is same as .await()
+---then go to the vs code
+from micro to call stack:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

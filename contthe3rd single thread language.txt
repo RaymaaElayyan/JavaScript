@@ -1,0 +1,8 @@
+single thread language
+asynchrononus-threads
+SIngle vs Asynchrononus 
+
+Constract?
+js isnt a async cua mouse and word typing
+//event low?
+go to fisrt

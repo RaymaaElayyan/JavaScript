@@ -1,0 +1,11 @@
+function LookUp(num){
+  if (num === 1){
+    return 1;
+}
+  return num+LookUp((num-1));
+}
+let i=1;
+if( i >= 1 && i <101){
+console.log(LookUp(i)); 
+}else
+console.log("A wrong entry "); 

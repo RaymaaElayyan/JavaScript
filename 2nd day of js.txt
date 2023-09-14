@@ -1,0 +1,43 @@
+2nd day of js:
+	27.8.2023
+	Sun
+	1:50pm
+so if var we get it above.
+/////////////
+var x = 10;
+function foo() {
+  console.log(x);
+  var x = x + 5;//if here let instead of var --> ReferenceErrror
+
+  console.log(x);
+}
+foo();
+console.log(x);
+////////////////
+*after the ecexuation the function got to the recyle bin cuz we dont need it anymore , no memory wasting
+*function scope but defined globally :
+var x = 10;
+function foo() {
+  console.log(x);
+  var x = x + 5;
+  console.log(x);
+}
+foo();
+console.log(x);
+/////
+foo();
+
+function foo() {
+  console.log("foo 1");
+}
+
+function foo() {
+  console.log("foo 2");
+}///////////---> cuz integrator ,-> interprature it take the last one seen and executes it not seeing the previous ones .
+*Curely for objects
+*genius ->all data same type 
+*husked?
+
+what a day full of activities !! yayy XD
+TEMPLATE REFERENCE?
+instead of (person.name )-->optimization

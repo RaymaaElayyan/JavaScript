@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <h1>Welcome to the Home Page</h1>
+    <img width="250" alt="cat image" />
+    <div>
+      <button>GET CUTE CAT !!!</button>
+    </div>
+    <script>
+      const img = document.body.querySelector("img");
+      const btn = document.body.querySelector("button");
+
+      btn.addEventListener("click", callRequest);
+
+      async function callRequest(event) {
+          imgSrc = "https://api.thecatapi.com/v1/images/search"
+          const response=await fetch(imgSrc);
+          const data=await response.json();//to json to make the array of obj to understand it 
+          [{url}] = data;
+          img.src = url;
+}
+
+
+        
+    </script>
+  </body>
+</html>
